@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* firstSection styling start here==========> */
+.firstSection {
+    padding: 130px 20px;
+    background-image: linear-gradient(to right, #F4F0EE, #F2D7BD);
+}
+
+.groupImage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.groupImage img {
+    width: 75%;
+    height: auto;
+}
+
+.rightContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    gap: 10px;
+}
+
+.rightContent h1 {
+    font-weight: 400;
+    font-size: 50px;
+    width: 60%;
+}
+
+.rightPara {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    gap: 10px;
+}
+
+.rightPara p {
+    color: #333333;
+    font-size: 15px;
+}
+
+.exploreButton {
+    color: #EF644C;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 2px solid #EF644C;
+    background-color: transparent;
+}
+
+.firstDwnArrow {
+    width: 11px;
+    margin-left: 5px;
+}
+
+.client {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.minifive {
+    width: 60%;
+    height: auto;
+}
+
+.TwokImage {
+    width: 60%;
+    height: auto;
+}
+
+.fivekimage {
+    width: 90%;
+}
+
+.client p {
+    font-size: 17px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    background-color: #F3EAE4;
+    color: #000;
+    margin: 0;
+    width: 48%;
+    text-align: start;
+    padding: 3px 0px;
+}
+
+.fiveKpara {
+    font-size: 17px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 26% !important;
+    transform: translate(-50%, -50%);
+    background-color: #F3EAE4;
+    color: #000;
+    margin: 0;
+    width: 48%;
+    text-align: start;
+    padding: 3px 0px;
+}
+
+
+
+
+/* lastSection styling start here==========> */
+.lastSection {
+    padding: 130px 20px;
+    background-color: #FFEFE4;
+}
+
+.mainDiv {
+    width: 90%;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.leftEnd {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.leFtEndPara {
+    width: 40%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    gap: 17px;
+}
+
+.leFtEndPara h2 {
+    font-weight: 600;
+}
+
+.leFtEndPara img {
+    width: 10%;
+    height: 3px;
+}
+
+.leFtEndPara p {
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 45px;
+    color: #7B7A7D;
+    margin: 0;
+}
+
+.number {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #F2D7BD;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: -43px;
+    top: 10%;
+}
+
+.number p {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.leftEndImage {
+    width: 60%;
+    height: auto;
+    position: relative;
+}
+
+.leftEndImage img {
+    width: 100%;
+    height: auto;
+}
+
+.numberRight {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #F2D7BD;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 12%;
+    right: -43px;
+}
+
+.numberRight p {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.rightEndPara {
+    width: 40%;
+    height: auto;
+    padding: 30px 58px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    gap: 17px;
+}
+
+.rightEndPara h2 {
+    font-weight: 600;
+}
+
+.rightEndPara img {
+    width: 10%;
+    height: 3px;
+}
+
+.rightEndPara p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+/* <!-- -------------second styling start here------------ --> */
+
+.secondtSection {
+    width: 100%;
+    height: auto;
+    background-color: #442B3C;
+}
+
+.secondMainSection {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    text-align: start;
+    position: relative;
+}
+
+.latestDiv {
+    border: 1px solid #442B3C;
+    margin-bottom: 5px;
+    background-color: #442B3C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.myHead {
+    background-color: #442B3C;
+    cursor: pointer;
+    width: 50%;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: end;
+}
+
+.subHeading {
+    color: #fff;
+    color: #fff;
+    font-size: 52px;
+}
+
+.myHead i {
+    float: right;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.leftMainHeadContent {
+    width: 50%;
+    display: none;
+    border-right: 1px solid #fff;
+}
+
+.leftMainHeadContent p {
+    color: #fff;
+}
+
+.subHeading {
+    margin-bottom: 0;
+}
+
+
+
+.part {
+    width: 100%;
+}
+
+.downDiv {
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    position: absolute;
+    bottom: 65px;
+    right: -123px;
+}
+
+
+.downDiv p {
+    width: 100%;
+    height: auto;
+    text-align: start;
+    color: #fff;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.myNavigation {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.myNavigation li {
+    width: 100%;
+    height: auto;
+}
+
+.myLeftContentAcc {
+    width: 60%;
+    height: auto;
+    border-right: 1px solid #fff;
+}
+
+.secondSecImage {
+    width: 100%;
+    height: auto;
+}
+
+.secondSecImage img {
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+}
+
+.allBTN {
+    color: #fff;
+    font-size: 38px;
+    padding: 6px 60px !important;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+    color: #ffffffa3;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    isolation: isolate;
+    border: none !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: #442B3C !important;
+    color: #fff !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    outline: none !important;
+    border-bottom: 1px solid #fff !important;
+    height: 101px;
+}
+
+
+/* <!-- -------------third styling start here------------ --> */
+.thirdtSection {
+    width: 100%;
+    height: auto;
+    background-color: #FAF5F1;
+    padding: 80px 10px;
+}
+
+.carouselDisplay{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: center;
+}
+.desk-img {
+    display: block;
+}
+
+.quotes {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    width: 86%;
+}
+
+.quoteIcon {
+    position: absolute;
+    top: 77%;
+    left: 76%;
+    width: 75px;
+}
+
+.typesParent {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 102px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+}
+
+.reviewStar {
+    width: 28%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.reviewStar img {
+    width: 17%;
+    height: auto;
+}
+.staticParent{
+    width: 30% !important;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+.carouselWidth{
+    width: 70% !important;
+}
+.static-Image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+.static-Image img{
+    width: 75px;
+    height: auto;
+}
+.static-Image h6{
+    font-size: 16px;
+    font-weight: 600;
+}
+.static-Image p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #9F9198;
+}
+
+/* <!-- -------------forth styling start here------------ --> */
+.forthSection {
+    width: 100%;
+    height: auto;
+    background-color: #442B3C;
+    padding: 65px 10px;
+}
+
+.thirdSectionParent {
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+
+.heaidngOne {
+    margin: 0;
+    font-size: 77px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 20px;
+    position: absolute;
+    top: -2px;
+    letter-spacing: 1.8px;
+}
+
+.headingAbsolute{
+    position: absolute;
+    right: 0px;
+    color: #E44F39 !important;
+}
+.mainContentdiv {
+    border-top: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.divHead {
+    background-color: #442B3C;
+    padding: 10px 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 75px;
+    color: #fff;
+    position: relative;
+}
+
+.divHead i {
+    float: right;
+}
+
+.contentType {
+    display: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.colFirst {
+    padding: 10px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.middleCol {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 35px;
+}
+
+.midtext {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.midReadMore {
+    color: #E44F39;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circleRed {
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: #E44F39;
+    margin-bottom: 0;
+}
+
+.endColImage {
+    width: 100%;
+    height: auto;
+}
+
+.endColImage img {
+    width: 100%;
+    height: auto;
+}

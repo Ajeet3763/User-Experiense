@@ -1,0 +1,38 @@
+@media (max-width:768px){
+    .firstSection{
+        padding: 100px 10px;
+    }
+    .groupImage img {
+        width: 100%;
+        height: auto;
+    }
+    .rightContent h1 {
+        font-weight: 400;
+        font-size: 28px;
+        width: 100%;
+    }
+    .mainDiv{
+        width: 100%;
+    }
+    .leFtEndPara{
+        width: 100%;
+    }
+    .leftEndImage{
+        width: 100%;
+    }
+    .number {
+        width: 50px;
+        height: 50px;
+        left: 134px;
+        top: -12%;
+    }
+    .rightEndPara{
+        width: 100%;
+    }
+    .numberRight {
+        width: 50px;
+        height: 50px;
+        top: 78%;
+        right: 140px;
+    }
+}
